@@ -1,0 +1,21 @@
+{
+    "name": "feline",
+    "displayName": "Feline",
+    "description": "A dark personal theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Feline Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Feline Dark-color-theme.json"
+            }
+        ]
+    }
+}
