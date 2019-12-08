@@ -2,8 +2,8 @@
 	"name": "Feline-Dark",
 	"type": "dark",
 	"colors": {
-		"tab.activeBackground": "#1e1e20",
-		"editor.background": "#1e1e20",
+		"tab.activeBackground": "#18181A",
+		"editor.background": "#18181A",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
