@@ -12,9 +12,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Feline Dark",
+                "label": "Feline-Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Feline Dark-color-theme.json"
+                "path": "./themes/Feline-Dark-color-theme.json"
             }
         ]
     }
