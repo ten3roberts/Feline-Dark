@@ -23,7 +23,6 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder"
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
@@ -100,7 +99,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#ffae00"
+				"foreground": "#FF8C00"
 			}
 		},
 		{
@@ -119,23 +118,31 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#71f086"
 			}
 		},
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"name": "Number, Constant, Tag Attribute, Embedded",
 			"scope": [
 				"constant.numeric",
 				"constant.language",
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#f7997c"
+			}
+		},
+		{
+			"name": "Function Argument",
+			"scope": [
+				"variable.parameter",
+			],
+			"settings": {
+				"foreground": "#f7997c"
 			}
 		},
 		{
@@ -236,7 +243,13 @@
 		{
 			"name": "Attributes",
 			"scope": [
-				"entity.other.attribute-name"
+				"entity.other.attribute-name",
+				"support.variable.property",
+				"entity.name.tag",
+				"entity.name.tag",
+				"markup.list",
+				"markup.deleted",
+				"invalid.illegal"
 			],
 			"settings": {
 				"foreground": "#C792EA"
@@ -314,6 +327,15 @@
 			],
 			"settings": {
 				"foreground": "#89DDFF"
+			}
+		},
+		{
+			"name": "Format flags",
+			"scope": [
+				"string constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#ff8b8b"
 			}
 		},
 		{
